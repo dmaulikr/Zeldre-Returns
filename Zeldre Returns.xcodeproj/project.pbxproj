@@ -12,6 +12,9 @@
 		8902F02C1D932EBE00D0A978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8902F02A1D932EBE00D0A978 /* Main.storyboard */; };
 		8902F02E1D932EBE00D0A978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8902F02D1D932EBE00D0A978 /* Assets.xcassets */; };
 		8902F0311D932EBE00D0A978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8902F02F1D932EBE00D0A978 /* LaunchScreen.storyboard */; };
+		89179F611D957FE000503EDB /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89179F601D957FE000503EDB /* Character.swift */; };
+		89179F631D95881500503EDB /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89179F621D95881500503EDB /* Player.swift */; };
+		89C500D11D9738E200416090 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89C500D01D9738E200416090 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		8902F02D1D932EBE00D0A978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8902F0301D932EBE00D0A978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8902F0321D932EBE00D0A978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89179F601D957FE000503EDB /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		89179F621D95881500503EDB /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		89C500D01D9738E200416090 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		8902F0251D932EBE00D0A978 /* Zeldre Returns */ = {
 			isa = PBXGroup;
 			children = (
+				89C500D01D9738E200416090 /* btn.wav */,
 				8902F0261D932EBE00D0A978 /* AppDelegate.swift */,
 				8902F0281D932EBE00D0A978 /* ViewController.swift */,
 				8902F02A1D932EBE00D0A978 /* Main.storyboard */,
 				8902F02D1D932EBE00D0A978 /* Assets.xcassets */,
 				8902F02F1D932EBE00D0A978 /* LaunchScreen.storyboard */,
 				8902F0321D932EBE00D0A978 /* Info.plist */,
+				89179F601D957FE000503EDB /* Character.swift */,
+				89179F621D95881500503EDB /* Player.swift */,
 			);
 			path = "Zeldre Returns";
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 				8902F0311D932EBE00D0A978 /* LaunchScreen.storyboard in Resources */,
 				8902F02E1D932EBE00D0A978 /* Assets.xcassets in Resources */,
 				8902F02C1D932EBE00D0A978 /* Main.storyboard in Resources */,
+				89C500D11D9738E200416090 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89179F611D957FE000503EDB /* Character.swift in Sources */,
+				89179F631D95881500503EDB /* Player.swift in Sources */,
 				8902F0291D932EBE00D0A978 /* ViewController.swift in Sources */,
 				8902F0271D932EBE00D0A978 /* AppDelegate.swift in Sources */,
 			);
@@ -288,6 +300,7 @@
 				8902F0371D932EBE00D0A978 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
